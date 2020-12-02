@@ -1,0 +1,29 @@
+.news{
+  padding-top: 85px;
+  padding-bottom: 85px;
+  margin: 0 auto;
+  &__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+  }
+  &__subtitle-2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+  }
+}

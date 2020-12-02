@@ -1,0 +1,33 @@
+@media (max-width: 1200px){
+  .home{
+    padding: 210px 0 230px;
+    }
+  .home .subtitle{
+    font-size: 33px;
+  }
+  .specializing .text-box .title{
+    font-size: 31px;
+    color: red;
+  }
+  @media(max-width: 992px){
+    .mobile-app .wrapper{
+      justify-content: center;
+    }
+  }
+  .high-standards .text-box{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 0;
+  }
+  .high-standards .text-box .text{
+    max-width: 100%;
+  }
+  .high-standards .img{
+    text-align: center;
+  }
+  .high-standards .d-flex.padding-helper{
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+}

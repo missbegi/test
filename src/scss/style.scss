@@ -1,0 +1,29 @@
+@import "../fonts/Montserrat/stylesheet.css";
+@import "../libs/bootstrap/bootstrap-grid.min.css";
+@import "../libs/My icons/style.css";
+$colorWhite: #FFFFFF;
+@mixin other{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  font-family: Montserrat, sans-serif;
+}
+@import "header";
+@import "home";
+@import "mobile-app";
+@import "standards";
+@import "video";
+@import "news";
+@import "projects";
+@import "specializing";
+@import "footer";
+@import "responsive";
+
